@@ -202,7 +202,7 @@
           </actuator>
         </transmission>
 
-        <xacro:robotiq_85_gripper prefix="${prefix}_" parent="${prefix}_ee_base">
+        <xacro:robotiq_85_gripper prefix="" parent="${prefix}_ee_base">
           <origin xyz="0 0 0" rpy="0 0 0" />
         </xacro:robotiq_85_gripper>
 
